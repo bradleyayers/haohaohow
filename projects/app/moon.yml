@@ -208,7 +208,7 @@ tasks:
       cache: false
 
   expoDoctor:
-    command: npx -y expo-doctor@1.12.5
+    command: npx -y expo-doctor@1.12.7
     env:
       # Don't check that all the expo-* packages are the latest versions. That's
       # already handled by renovate in a way that doesn't break PR builds when a
