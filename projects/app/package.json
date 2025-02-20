@@ -50,7 +50,7 @@
     "expo-screen-orientation": "^8.0.2",
     "expo-secure-store": "~14.0.0",
     "expo-splash-screen": "~0.29.18",
-    "expo-sqlite": "~15.0.5",
+    "expo-sqlite": "~15.1.0",
     "expo-status-bar": "~2.0.0",
     "expo-system-ui": "~4.0.6",
     "expo-updates": "~0.26.10",
