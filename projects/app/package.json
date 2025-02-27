@@ -81,7 +81,7 @@
     "replicache": "patch:replicache@patch%3Areplicache@npm%253A15.0.1%23~/.yarn/patches/replicache-npm-15.0.1-daaa5044ba.patch%3A%3Aversion=15.0.1&hash=c643a4#~/.yarn/patches/replicache-patch-1cf70e7f66.patch",
     "replicache-react": "^5.0.1",
     "tailwind-variants": "^0.3.1",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.0.0",
     "usehooks-ts": "^3.1.0",
     "ws": "^8.17.1",
     "zod": "^3.23.8",
