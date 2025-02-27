@@ -33,7 +33,7 @@ jobs:
       - uses: ./.github/actions/setup-tools
 
       - name: 🚀 Build app
-        run: npx -y eas-cli@14.7.1 build --profile=${{ inputs.profile }} --platform=${{ inputs.platform }} --non-interactive
+        run: npx -y eas-cli@15.0.12 build --profile=${{ inputs.profile }} --platform=${{ inputs.platform }} --non-interactive
         working-directory: projects/app
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
