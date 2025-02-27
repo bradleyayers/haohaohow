@@ -117,7 +117,7 @@
     "eslint-plugin-react-compiler": "19.0.0-beta-df7b47d-20241124",
     "eslint-plugin-react-hooks": "^5.0.0",
     "fontkit": "^2.0.4",
-    "globals": "^15.0.0",
+    "globals": "^16.0.0",
     "ink": "patch:ink@npm%3A5.1.0#~/.yarn/patches/ink-npm-5.1.0-5eb899d847.patch",
     "ink-link": "^4.1.0",
     "ink-multi-select": "^2.0.0",
