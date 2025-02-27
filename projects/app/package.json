@@ -30,7 +30,7 @@
     "@trpc/server": "11.0.0-rc.795",
     "@types/apple-signin-api": "^1.5.3",
     "array-from-async": "^3.0.0",
-    "color": "^4.2.3",
+    "color": "^5.0.0",
     "date-fns": "^4.0.0",
     "drizzle-orm": "^0.39.0",
     "expo": "~52.0.37",
