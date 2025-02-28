@@ -22,7 +22,6 @@ import {
 } from "@react-navigation/stack";
 import { useQueries } from "@tanstack/react-query";
 import { Asset } from "expo-asset";
-import { Audio } from "expo-av";
 import { Image } from "expo-image";
 import { Href, Link, usePathname } from "expo-router";
 import sortBy from "lodash/sortBy";
@@ -34,6 +33,7 @@ import { QuizDeckOneCorrectPairQuestion } from "./QuizDeckOneCorrectPairQuestion
 import { QuizProgressBar } from "./QuizProgressBar";
 import { RectButton2 } from "./RectButton2";
 import { useReplicache } from "./ReplicacheContext";
+import { useSoundEffect } from "./useSoundEffect";
 import { useEventCallback } from "./util";
 
 interface QuestionState {
@@ -70,18 +70,9 @@ export const QuizDeck = ({
   >(() => new Map());
   const r = useReplicache();
 
-  const successSound = useMemo(
-    () => Audio.Sound.createAsync(require(`@/assets/audio/sparkle.mp3`)),
-    [],
+  const playSuccessSound = useSoundEffect(
+    require(`@/assets/audio/sparkle.mp3`),
   );
-
-  const playSuccessSound = () => {
-    successSound
-      .then((x) => x.sound.playAsync())
-      .catch((e: unknown) => {
-        console.error(`Failed to play \`sparkle.mp3\` sound`, e);
-      });
-  };
 
   // The number of questions in a row correctly answered.
   const [streakCount, setStreakCount] = useState(0);
