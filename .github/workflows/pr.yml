@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 0
 
       - name: 🏗 Create database branch for running tests
-        uses: neondatabase/create-branch-action@v5
+        uses: neondatabase/create-branch-action@v6
         id: create-neon-branch
         with:
           api_key: ${{ secrets.NEON_API_KEY }}
