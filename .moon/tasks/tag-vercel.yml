@@ -1,9 +1,9 @@
 tasks:
   deploy:
     command: |
-      npx -y vercel@39.4.2 pull --yes ${HHH_VERCEL_PREVIEW+--environment=preview} ${HHH_VERCEL_PROD+--environment=production} ${VERCEL_TOKEN:+--token=$VERCEL_TOKEN} &&
-      npx -y vercel@39.4.2 build ${HHH_VERCEL_PROD+--prod} &&
-      npx -y vercel@39.4.2 deploy --prebuilt ${HHH_VERCEL_PROD+--prod} ${VERCEL_TOKEN:+--token=$VERCEL_TOKEN}
+      npx -y vercel@41.3.1 pull --yes ${HHH_VERCEL_PREVIEW+--environment=preview} ${HHH_VERCEL_PROD+--environment=production} ${VERCEL_TOKEN:+--token=$VERCEL_TOKEN} &&
+      npx -y vercel@41.3.1 build ${HHH_VERCEL_PROD+--prod} &&
+      npx -y vercel@41.3.1 deploy --prebuilt ${HHH_VERCEL_PROD+--prod} ${VERCEL_TOKEN:+--token=$VERCEL_TOKEN}
     inputs:
       - $VERCEL_*
       - $HHH_VERCEL_PREVIEW # Use to turn on "preview" mode.
