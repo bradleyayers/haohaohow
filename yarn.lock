@@ -2652,7 +2652,7 @@ __metadata:
     date-fns: "npm:^4.0.0"
     debug: "npm:^4.3.7"
     drizzle-kit: "npm:^0.30.1"
-    drizzle-orm: "npm:~0.38.0"
+    drizzle-orm: "npm:~0.40.0"
     eslint: "npm:^9.13.0"
     eslint-plugin-drizzle: "npm:^0.2.3"
     eslint-plugin-import: "npm:^2.31.0"
@@ -8188,9 +8188,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:~0.38.0":
-  version: 0.38.4
-  resolution: "drizzle-orm@npm:0.38.4"
+"drizzle-orm@npm:~0.40.0":
+  version: 0.40.0
+  resolution: "drizzle-orm@npm:0.40.0"
   peerDependencies:
     "@aws-sdk/client-rds-data": ">=3"
     "@cloudflare/workers-types": ">=4"
@@ -8205,19 +8205,18 @@ __metadata:
     "@tidbcloud/serverless": "*"
     "@types/better-sqlite3": "*"
     "@types/pg": "*"
-    "@types/react": ">=18"
     "@types/sql.js": "*"
     "@vercel/postgres": ">=0.8.0"
     "@xata.io/client": "*"
     better-sqlite3: ">=7"
     bun-types: "*"
     expo-sqlite: ">=14.0.0"
+    gel: ">=2"
     knex: "*"
     kysely: "*"
     mysql2: ">=2"
     pg: ">=8"
     postgres: ">=3"
-    react: ">=18"
     sql.js: ">=1"
     sqlite3: ">=5"
   peerDependenciesMeta:
@@ -8247,8 +8246,6 @@ __metadata:
       optional: true
     "@types/pg":
       optional: true
-    "@types/react":
-      optional: true
     "@types/sql.js":
       optional: true
     "@vercel/postgres":
@@ -8260,6 +8257,8 @@ __metadata:
     bun-types:
       optional: true
     expo-sqlite:
+      optional: true
+    gel:
       optional: true
     knex:
       optional: true
@@ -8273,13 +8272,11 @@ __metadata:
       optional: true
     prisma:
       optional: true
-    react:
-      optional: true
     sql.js:
       optional: true
     sqlite3:
       optional: true
-  checksum: 10c0/40ec1d8752a389fbfd1d2bc40569750b0ad9fafd83a146ac70b57126a134978e451ef2e9472a066adadd56e924b4434369437d751fc590c978e4f5486e971339
+  checksum: 10c0/e0e8f4e9a528709a5ce77dbced35972cce1b0e8592049d1170b52e2a496692ab2149bc25d296b6f9b4d5bffdbb996b437ca244178fb4611fcf7af720fc0bfb1d
   languageName: node
   linkType: hard
 
