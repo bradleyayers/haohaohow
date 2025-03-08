@@ -95,7 +95,7 @@
     "@inkjs/ui": "^2.0.0",
     "@inngest/eslint-plugin": "^0.0.7",
     "@lottiefiles/lottie-js": "^0.4.2",
-    "@sentry/node": "~8.40.0",
+    "@sentry/node": "~9.4.0",
     "@stylistic/eslint-plugin": "^4.0.0",
     "@types/babel__core": "7.20.x",
     "@types/color": "^3",
